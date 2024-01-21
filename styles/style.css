@@ -5,15 +5,29 @@ body {
     rgb(255, 255, 255) 92.2%
   );
   font-family: "Poppins", sans-serif;
-  padding: 70px;
+  padding: 70px 15px;
   font-weight: bold;
   line-height: 2px;
+  color: rgb(113, 112, 112);
+  .Hello {
+    font-size: 28px;
+  }
 }
 h1,
 h2,
 h3,
 h4 {
   font-family: "Playfair Display", serif;
+}
+h1 {
+  padding: 8px;
+  line-height: 55px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 30px;
 }
 .btn-branding {
   margin-top: 45px;
@@ -26,6 +40,10 @@ h4 {
 .btn-branding:hover {
   color: var(--background-color);
   background-color: var(--color);
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 .info {
   margin-top: 120px;
@@ -42,7 +60,30 @@ h4 {
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
   border-radius: 25px;
 }
+.cards {
+  margin-top: 30px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/555/original/pearly.jpg?1705863818");
+  border-radius: 10px;
+  border: 2px solid rgba(255, 196, 163);
+  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
+  background-repeat: no-repeat;
+  background-size: 1400px 950px;
+}
+.new {
+  background-image: none;
+  border: none;
+  padding-bottom: 60px;
+}
+.card-text {
+  line-height: 15px;
+}
+.card-title {
+  font-weight: bold;
+}
+.card-text {
+  font-weight: lighter;
+}
 :root {
-  --background-color: rgb(249, 126, 185);
+  --background-color: rgba(253, 126, 185);
   --color: white;
 }
