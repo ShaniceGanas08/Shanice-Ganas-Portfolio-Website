@@ -6,11 +6,14 @@ body {
   );
   font-family: "Poppins", sans-serif;
   padding: 70px 15px;
-  font-weight: bold;
+  font-weight: light;
   line-height: 2px;
-  color: rgb(113, 112, 112);
+  color: rgb(79, 76, 76);
   .Hello {
     font-size: 28px;
+  }
+  .bold {
+    font-weight: bold;
   }
 }
 h1,
@@ -24,10 +27,21 @@ h1 {
   line-height: 55px;
 }
 
-h2 {
+.heading {
   text-align: center;
   margin: 20px;
   padding-bottom: 30px;
+}
+p {
+  line-height: 1.5;
+}
+.educourse {
+  position: relative;
+  top: 50px;
+  left: 130px;
+  border: 2px solid var(--color);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
 }
 .btn-branding {
   margin-top: 45px;
@@ -35,11 +49,40 @@ h2 {
   border-radius: 4px;
   background: var(--background-color);
   color: beige;
+  border: 1px solid var(--background-color);
 }
 
 .btn-branding:hover {
   color: var(--background-color);
   background-color: var(--color);
+  border: 1px solid var(--color);
+}
+.btn-primary {
+  margin-left: 65px;
+  padding: 10px;
+  border-radius: 4px;
+  background: var(--background-color);
+  color: beige;
+  text-align: center;
+  border: 1px solid var(--background-color);
+}
+.btn-primary:hover {
+  color: var(--background-color);
+  background-color: var(--color);
+  border: 1px solid var(--color);
+}
+.btn-branding-outline {
+  margin-top: 45px;
+  padding: 10px;
+  border-radius: 4px;
+  background: var(--background-color);
+  color: beige;
+  border: 1px solid var(--background-color);
+}
+.btn-branding-outline:hover {
+  color: var(--background-color);
+  background-color: var(--color);
+  border: 1px solid var(--color);
 }
 .card:hover {
   cursor: pointer;
@@ -53,6 +96,7 @@ h2 {
   margin-left: 40px;
   padding: 50px;
 }
+
 .image {
   filter: grayscale(100%);
   max-width: 400px;
@@ -76,14 +120,37 @@ h2 {
 }
 .card-text {
   line-height: 15px;
+  color: rgb(79, 76, 76);
+  font-weight: lighter;
 }
 .card-title {
   font-weight: bold;
+  color: rgb(79, 76, 76);
 }
-.card-text {
-  font-weight: lighter;
-}
+
 :root {
   --background-color: rgba(253, 126, 185);
-  --color: white;
+  --color: rgba(255, 196, 163, 0.8);
+}
+@media (max-width: 960px) {
+  .project-description {
+    text-align: center;
+    font-size: 12px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .image {
+    position: relative;
+    right: 60px;
+  }
+  }
+  .new {
+    position: relative;
+    left: 35px;
+  }
+  .ms {
+    padding-bottom: 25px;
+    text-align: center;
+  }
 }
