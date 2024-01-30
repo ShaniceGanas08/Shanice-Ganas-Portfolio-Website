@@ -6,9 +6,9 @@ body {
   );
   font-family: "Poppins", sans-serif;
   padding: 70px 15px;
-  font-weight: light;
+  font-weight: normal;
   line-height: 2px;
-  color: rgb(79, 76, 76);
+  color: #534859;
   .Hello {
     font-size: 28px;
   }
@@ -132,7 +132,7 @@ p {
   --background-color: rgba(253, 126, 185);
   --color: rgba(255, 196, 163, 0.8);
 }
-@media (max-width: 960px) {
+@media (max-width: 960px){
   .project-description {
     text-align: center;
     font-size: 12px;
@@ -144,13 +144,30 @@ p {
     position: relative;
     right: 60px;
   }
-  }
+  
   .new {
     position: relative;
     left: 35px;
+    padding-bottom: 20px;
   }
   .ms {
     padding-bottom: 25px;
     text-align: center;
   }
-}
+  body{
+    padding: 70px 0px;
+    background-repeat: no-repeat;
+  }
+  .col .picture{
+    padding: 0px;
+  }
+  .info{
+    margin-top: 90px;
+  }
+  .picture{
+      margin-left: 95px;
+  }
+  .cards{
+    padding-left: 10px;
+  }
+)
