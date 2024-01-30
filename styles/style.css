@@ -35,6 +35,10 @@ h1 {
 p {
   line-height: 1.5;
 }
+.ms{
+  position: relative;
+  bottom:60px;
+}
 .educourse {
   position: relative;
   top: 50px;
@@ -127,7 +131,31 @@ p {
   font-weight: bold;
   color: rgb(79, 76, 76);
 }
+.who{
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/012/original/background_about_us.jpg?1706635953");
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 196, 163);
+  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
+  background-repeat: no-repeat;
+  background-size: 1400px 950px;
+  padding-bottom: 30px;
+  text-align: center;
+  }
+  .list {
+    text-align: center;
+    margin: 80px 0px 40px;
+  }
+  .bullet{
+        list-style: none;
+        text-align: center;
+         line-height: 1.5;
+  }
+.skills{
+  text-align: center;
+      margin: 80px 0px 40px;
 
+}
 :root {
   --background-color: rgba(253, 126, 185);
   --color: rgba(255, 196, 163, 0.8);
