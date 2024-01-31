@@ -108,6 +108,14 @@ p {
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
   border-radius: 25px;
 }
+.skills-image{
+    max-width: 400px;
+  height: auto;
+  box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
+  border-radius: 25px;
+  margin: 30px 0px 40px;
+
+}
 .cards {
   margin-top: 30px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/555/original/pearly.jpg?1705863818");
@@ -144,7 +152,20 @@ p {
   }
   .list {
     text-align: center;
-    margin: 80px 0px 40px;
+    margin: 40px 0px 40px;
+  }
+  .whole-list{
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/012/original/background_about_us.jpg?1706635953");
+  border-radius: 10px;
+  border: 2px solid rgba(255, 196, 163);
+  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
+  background-repeat: no-repeat;
+  background-size: 1400px 950px;
+  padding-bottom: 30px;
+  text-align: center;
+  }
+  .md{
+    line-height: 1.5;
   }
   .bullet{
         list-style: none;
@@ -197,5 +218,11 @@ p {
   }
   .cards{
     padding-left: 10px;
+  }
+  .change{
+    background-repeat: no-repeat;
+  }
+  .skills-image{
+    
   }
 )
