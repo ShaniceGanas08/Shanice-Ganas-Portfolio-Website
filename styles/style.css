@@ -108,12 +108,13 @@ p {
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
   border-radius: 25px;
 }
-.skills-image{
+.myskills{
     max-width: 400px;
   height: auto;
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
   border-radius: 25px;
   margin: 30px 0px 40px;
+
 
 }
 .cards {
@@ -124,6 +125,7 @@ p {
   box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
   background-repeat: no-repeat;
   background-size: 1400px 950px;
+  padding: 30px 30px 30px 90px;
 }
 .new {
   background-image: none;
@@ -217,12 +219,13 @@ p {
       margin-left: 85px;
   }
   .cards{
-   padding-left: 30px;
+   padding: 37px;
   }
   .change{
     background-repeat: no-repeat;
   }
-  .skills-image{
-    
+  .skills{
+    text-align: center;
+  
   }
 )
