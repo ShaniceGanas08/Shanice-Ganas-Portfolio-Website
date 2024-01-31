@@ -214,7 +214,10 @@ p {
     margin-top: 90px;
   }
   .picture{
-      margin-left: 95px;
+      margin-left: 85px;
+  }
+  .cards{
+   padding-left: 30px;
   }
   .change{
     background-repeat: no-repeat;
