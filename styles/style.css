@@ -193,7 +193,6 @@ p {
   }
   .image {
     position: relative;
-    right: 60px;
   }
   
   .new {
@@ -216,7 +215,8 @@ p {
     margin-top: 90px;
   }
   .picture{
-      margin-left: 85px;
+      margin-left: 0px;
+      text-align: center;
   }
   .cards{
    padding: 37px;
