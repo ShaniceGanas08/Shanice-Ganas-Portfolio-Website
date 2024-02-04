@@ -16,11 +16,16 @@ body {
    font-weight: bold;
   }
   h1{
-    font-size: 45px;
+  font-size: 45px;
   }
 }
+h2{
+font-family: "Caveat", cursive;
+color: rgba(253, 126, 185);
+font-size: 40px;
+font-weight: bold;
+}
 h1,
-h2,
 h3,
 h4 {
  font-family: "Playfair Display", serif;
@@ -58,6 +63,11 @@ padding: 0px;
 .ms{
  position: relative;
  bottom:60px;
+}
+.contact-me{
+  text-align: center;
+  margin: 10px;
+  padding-bottom:90px;
 }
 .educourse {
   position: relative;
@@ -205,40 +215,78 @@ padding: 0px;
   left:300px;
   margin-top: 90px;
 }
-.github{
-position: relative;
-top: 55px;
-left:70px;
+.contact-page-body{
+  padding:0px;
+  margin-bottom: 60px;
 }
-.linkedin{
-position: relative;
-top: 55px;
+.contact-images{
+display: block;
+margin:0 auto;
 }
-.linkedin-details{
-  position: relative;
-  right:95px;
+.contact-details{
+text-align: center;
 }
-.gmail{
-position: relative;
-top: 55px;
+.contact-page-image{
+ padding-bottom: 70px ;
+ display: block;
+ margin: 0 auto;
+ max-height: 300px;
 }
-.whatsapp{
-position: relative;
-top: 55px;
-left:70px;
+.contact{
+  border-radius: 10px;
+  border: 2px solid rgba(255, 196, 163);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/012/original/background_about_us.jpg?1706635953");
+  background-repeat: no-repeat;
+  background-size: 2800px;
 }
-.email-details{
-position: relative;
-right:95px;
-}  
-.whatsapp-details{
-position: relative;
-left:75px;
+.nav-name{
+  font-size: 30px;
+  text-decoration: none;
+  color: rgba(253, 126, 185);
 }
-.github-details{
-position: relative;
-left:75px;
+ul{
+padding: 0px;
+margin:0px;
 }
+nav li{
+  display: inline;
+  margin-left: 15px;
+  line-height: 42px;
+}
+nav{
+  padding: 20px 0;
+}
+ nav a{
+  text-decoration: none;
+  color: rgba(253, 126, 185);
+  font-weight: bolder;
+  transition: all 100ms ease-in-out;
+ }
+ nav a:hover{
+ color: rgb(79, 76, 76);
+ text-decoration: underline;
+ cursor: pointer;
+ }
+ nav li:active a{
+  color: beige;
+ }
+.contact:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  background-image: none;
+  background-color: rgba(198, 195, 208, 0.3);
+  border-color:   rgba(198, 195, 208, 0.3);
+}
+.get-in-touch{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
 :root {
   --background-color: rgba(253, 126, 185);
   --color: rgba(255, 196, 163, 0.8);
@@ -304,4 +352,14 @@ left:75px;
    position: relative;
    left: -15px;
   }
+  .contact-page-image{
+    width:300px;
+  }
+  .contact-me{
+text-align: center;  
+margin-top: 40px;
+}
+.nav-name{
+font-size: 25px;
+}
 )
