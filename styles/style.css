@@ -5,7 +5,7 @@ body {
     rgb(255, 255, 255) 92.2%
   );
   font-family: "Poppins", sans-serif;
-  padding: 70px 15px;
+  padding: 40px 10px;
   font-weight: normal;
   line-height: 2px;
   color: #534859;
@@ -69,14 +69,6 @@ padding: 0px;
   margin: 10px;
   padding-bottom:90px;
 }
-.educourse {
-  position: relative;
-  top: 50px;
-  left: 130px;
-  border: 2px solid var(--color);
-  border-radius: 10px;
-  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
-}
 .btn-branding {
   margin-top: 45px;
   padding: 20px;
@@ -105,7 +97,7 @@ padding: 0px;
   border: 1px solid var(--color);
 }
 .btn-branding-outline {
-  margin-top: 45px;
+  margin-top: 25px;
   padding: 10px;
   border-radius: 4px;
   background: var(--background-color);
@@ -227,10 +219,14 @@ margin:0 auto;
 text-align: center;
 }
 .contact-page-image{
- padding-bottom: 70px ;
+ padding: 0px;
  display: block;
  margin: 0 auto;
- max-height: 300px;
+ max-height: 200px;
+border-radius: 30px;
+border:2px solid #f6d1d1;
+margin-top: 90px;
+margin-bottom: 90px;
 }
 .contact{
   border-radius: 10px;
@@ -241,7 +237,26 @@ text-align: center;
   margin: 0 auto;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/012/original/background_about_us.jpg?1706635953");
   background-repeat: no-repeat;
-  background-size: 2800px;
+  background-size: 3000px;
+  padding: 25px;
+}
+.contact:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  background-image: none;
+  background-color: rgba(198, 195, 208, 0.3);
+  border-color:   rgba(198, 195, 208, 0.3);
+}
+.get-in-touch{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+.contact-box {
+    background-color: #f6d1d1;
+    padding: 20px 40px;
+    border-radius: 40px;
+    margin: 0 15px 40px 40px;
 }
 .nav-name{
   font-size: 30px;
@@ -255,10 +270,12 @@ margin:0px;
 nav li{
   display: inline;
   margin-left: 15px;
-  line-height: 42px;
+  line-height: 30px;
 }
 nav{
-  padding: 20px 0;
+  padding: 20px 20px;
+  background-color: #f6d1d1;
+  display: inline;
 }
  nav a{
   text-decoration: none;
@@ -274,19 +291,28 @@ nav{
  nav li:active a{
   color: beige;
  }
-.contact:hover{
-  cursor: pointer;
-  transform: scale(1.05);
-  background-image: none;
-  background-color: rgba(198, 195, 208, 0.3);
-  border-color:   rgba(198, 195, 208, 0.3);
-}
-.get-in-touch{
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 35px;
-}
-
+ .weather-app {
+  max-width: 300px;
+  max-height: 400px;
+  display: block;
+  margin-left: 155px;
+  border: 2px solid var(--color);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
+ }
+ .contentspark{
+  max-width: 300px;
+  max-height: 400px;
+  display: block;
+  margin: 60px 0px 50px 90px;
+  border: 2px solid var(--color);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
+ }
+ .built-with{
+  color: rgba(253, 126, 185);
+  font-weight: bold;
+ }
 :root {
   --background-color: rgba(253, 126, 185);
   --color: rgba(255, 196, 163, 0.8);
@@ -339,27 +365,33 @@ nav{
   }
   .myskills{
    margin:50px 20px 50px;
+   margin-left: 35px;
   }
   .first-list{
    display: list-item;
    list-style: none;
    position: relative;
    left: -10px;
+   line-height: 25px;
   }
    .second-list{
    display: list-item;
    list-style: none;
    position: relative;
    left: -15px;
+   line-height: 25px;
+
   }
   .contact-page-image{
     width:300px;
   }
-  .contact-me{
-text-align: center;  
-margin-top: 40px;
-}
 .nav-name{
 font-size: 25px;
+}
+h2{
+  font-size: 30px;
+}
+h1{
+  font-size: 40px;
 }
 )
