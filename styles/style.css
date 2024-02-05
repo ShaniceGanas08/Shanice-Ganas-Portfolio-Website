@@ -62,7 +62,7 @@ padding: 0px;
 }
 .ms{
  position: relative;
- bottom:60px;
+ top:50px;
 }
 .contact-me{
   text-align: center;
@@ -97,7 +97,7 @@ padding: 0px;
   border: 1px solid var(--color);
 }
 .btn-branding-outline {
-  margin-top: 25px;
+  margin: 55px 0px 55px;
   padding: 10px;
   border-radius: 4px;
   background: var(--background-color);
@@ -109,13 +109,30 @@ padding: 0px;
   background-color: var(--color);
   border: 1px solid var(--color);
 }
+.launch-project{
+  margin: 55px 140px 55px;
+  padding: 10px;
+  border-radius: 4px;
+  background: var(--background-color);
+  color: beige;
+  border: 1px solid var(--background-color);
+}
+.launch-project:hover {
+  color: var(--background-color);
+  background-color: var(--color);
+  border: 1px solid var(--color);
+}
+.work-inquiry{
+ font-size: 45px;
+ margin-left: 95px;
+}
+.lets-work{
+  font-size: 30px;
+  margin-left: 95px;
+}
 .card:hover {
   cursor: pointer;
   transform: scale(1.05);
-}
-.info {
-  margin-top: 120px;
-  margin-right: 30px;
 }
 .picture {
   margin-left: 40px;
@@ -137,13 +154,13 @@ padding: 0px;
   margin: 80px 0px 70px 130px;
 }
 .cards {
-  margin-top: 30px;
+  margin: 30px 0px 40px 0px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/555/original/pearly.jpg?1705863818");
   border-radius: 10px;
   border: 2px solid rgba(255, 196, 163);
   box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
   background-repeat: no-repeat;
-  background-size: 1400px 950px;
+  background-size: 1600px 950px;
   padding: 30px 30px 30px 90px;
 }
 .new {
@@ -256,7 +273,7 @@ margin-bottom: 90px;
     background-color: #f6d1d1;
     padding: 20px 40px;
     border-radius: 40px;
-    margin: 0 15px 40px 40px;
+    margin: 45px 15px 30px 40px;
 }
 .nav-name{
   font-size: 30px;
@@ -295,7 +312,7 @@ nav{
   max-width: 300px;
   max-height: 400px;
   display: block;
-  margin-left: 155px;
+  margin-left: 250px;
   border: 2px solid var(--color);
   border-radius: 10px;
   box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
@@ -312,6 +329,15 @@ nav{
  .built-with{
   color: rgba(253, 126, 185);
   font-weight: bold;
+ }
+ .website{
+  max-width: 300px;
+  max-height: 400px;
+  display: block;
+  margin: 60px 0px 50px 90px;
+  border: 2px solid var(--color);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
  }
 :root {
   --background-color: rgba(253, 126, 185);
@@ -339,9 +365,10 @@ nav{
   .ms {
    padding-bottom: 25px;
    text-align: center;
+   margin-bottom: 25px;
   }
   body{
-   padding: 70px 0px;
+   padding: 50px 0px;
    background-repeat: no-repeat;
   }
   .col .picture{
@@ -351,7 +378,7 @@ nav{
    margin-top: 90px;
   }
   .picture{
-   margin-left: 0px;
+   margin: 35px 0px;
    text-align: center;
   }
   .cards{
@@ -386,7 +413,7 @@ nav{
     width:300px;
   }
 .nav-name{
-font-size: 25px;
+font-size: 20px;
 }
 h2{
   font-size: 30px;
