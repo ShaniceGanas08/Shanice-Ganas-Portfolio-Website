@@ -5,7 +5,7 @@ body {
     rgb(255, 255, 255) 92.2%
   );
   font-family: "Poppins", sans-serif;
-  padding: 40px 10px;
+  padding: 40px 0px;
   font-weight: normal;
   line-height: 2px;
   color: #534859;
@@ -14,6 +14,7 @@ body {
   }
   .bold {
    font-weight: bold;
+   padding-left: 10px;
   }
   h1{
   font-size: 45px;
@@ -62,7 +63,8 @@ padding: 0px;
 }
 .ms{
  position: relative;
- top:50px;
+ bottom:430px;
+ padding-left: 130px;
 }
 .contact-me{
   text-align: center;
@@ -140,7 +142,6 @@ padding: 0px;
 }
 
 .image {
-  filter: grayscale(100%);
   max-width: 400px;
   height: auto;
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
@@ -151,7 +152,7 @@ padding: 0px;
   height: auto;
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
   border-radius: 25px;
-  margin: 80px 0px 70px 130px;
+  margin: 80px 0px 70px 210px;
 }
 .cards {
   margin: 30px 0px 40px 0px;
@@ -240,10 +241,10 @@ text-align: center;
  display: block;
  margin: 0 auto;
  max-height: 200px;
-border-radius: 30px;
-border:2px solid #f6d1d1;
-margin-top: 90px;
-margin-bottom: 90px;
+ border-radius: 30px;
+ border:2px solid #f6d1d1;
+ margin-top: 90px;
+ margin-bottom: 90px;
 }
 .contact{
   border-radius: 10px;
@@ -339,6 +340,24 @@ nav{
   border-radius: 10px;
   box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
  }
+ .hero{
+  max-width: 2200px;
+  margin-bottom: 85px;
+  height: 600px;
+  }
+  .marketing {
+  color: white;
+  }
+  .web{
+  color: white; 
+  }
+  .shecodes{
+    margin: 55px 0 25px;
+    text-align: center;
+  }
+  .shecodes-row{
+   margin-left: 195px;
+  }
 :root {
   --background-color: rgba(253, 126, 185);
   --color: rgba(255, 196, 163, 0.8);
@@ -363,9 +382,12 @@ nav{
    padding-bottom: 20px;
   }
   .ms {
-   padding-bottom: 25px;
-   text-align: center;
-   margin-bottom: 25px;
+  position: relative;
+  bottom: 555px;
+  right:125px;
+  }
+  .hero{
+    margin-bottom: 15px;
   }
   body{
    padding: 50px 0px;
@@ -373,9 +395,6 @@ nav{
   }
   .col .picture{
    padding: 0px;
-  }
-  .info{
-   margin-top: 90px;
   }
   .picture{
    margin: 35px 0px;
@@ -413,7 +432,9 @@ nav{
     width:300px;
   }
 .nav-name{
-font-size: 20px;
+font-size: 17px;
+position: relative;
+top:3px;
 }
 h2{
   font-size: 30px;
