@@ -5,71 +5,66 @@ body {
     rgb(255, 255, 255) 92.2%
   );
   font-family: "Poppins", sans-serif;
-  padding: 40px 0px;
   font-weight: normal;
   line-height: 2px;
   color: #534859;
-  .Hello {
-   font-size: 28px;
-  }
-  .bold {
-   font-weight: bold;
-   padding-left: 10px;
-  }
-  h1{
-  font-size: 45px;
-  }
 }
-h2{
-font-family: "Caveat", cursive;
-color: rgba(253, 126, 185);
-font-size: 40px;
-font-weight: bold;
+.Hello {
+  font-size: 28px;
+}
+.bold {
+  font-weight: bold;
+  padding-left: 10px;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-family: "Caveat", cursive;
+  color: rgba(253, 126, 185);
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #e80cbf;
 }
 h1,
 h3,
 h4 {
- font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
 }
 h1 {
- padding: 8px;
- line-height: 55px;
-}
-.heading {
- text-align: center;
- margin: 20px;
- padding-bottom: 30px;
+  padding: 8px;
+  line-height: 55px;
 }
 p {
- line-height: 1.5;
+  line-height: 1.5;
 }
 
-li{
- list-style: none;
+li {
+  list-style: none;
 }
 .first-list {
- display: flex;
- justify-content: space-evenly;
- line-height: 3.5;
-padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 3.5;
+  padding: 0px;
 }
 .second-list {
- display: flex;
- justify-content: space-evenly;
- line-height: 3.5;
- padding: 0px;
- position: relative;
- right:35px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 3.5;
+  padding: 0px;
+  position: relative;
+  right: 35px;
 }
-.ms{
- position: relative;
- bottom:430px;
- padding-left: 130px;
+.ms {
+  position: relative;
+  bottom: 430px;
+  padding-left: 130px;
 }
-.contact-me{
+.contact-me {
   text-align: center;
   margin: 10px;
-  padding-bottom:90px;
+  padding-bottom: 90px;
 }
 .btn-branding {
   margin-top: 45px;
@@ -78,6 +73,7 @@ padding: 0px;
   background: var(--background-color);
   color: beige;
   border: 1px solid var(--background-color);
+  font-size: 20px;
 }
 .btn-branding:hover {
   color: var(--background-color);
@@ -111,7 +107,7 @@ padding: 0px;
   background-color: var(--color);
   border: 1px solid var(--color);
 }
-.launch-project{
+.launch-project {
   margin: 55px 140px 55px;
   padding: 10px;
   border-radius: 4px;
@@ -124,11 +120,11 @@ padding: 0px;
   background-color: var(--color);
   border: 1px solid var(--color);
 }
-.work-inquiry{
- font-size: 45px;
- margin-left: 95px;
+.work-inquiry {
+  font-size: 45px;
+  margin-left: 95px;
 }
-.lets-work{
+.lets-work {
   font-size: 30px;
   margin-left: 95px;
 }
@@ -147,22 +143,29 @@ padding: 0px;
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
   border-radius: 25px;
 }
-.myskills{
+.myskills {
   max-width: 400px;
   height: auto;
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
   border-radius: 25px;
   margin: 80px 0px 70px 210px;
 }
+.heading {
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 30px;
+  position: relative;
+  right: 65px;
+}
 .cards {
-  margin: 30px 0px 40px 0px;
+  margin: 30px 0px 40px 30px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/555/original/pearly.jpg?1705863818");
   border-radius: 10px;
   border: 2px solid rgba(255, 196, 163);
   box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
   background-repeat: no-repeat;
   background-size: 1600px 950px;
-  padding: 30px 30px 30px 90px;
+  padding: 0px 30px 30px 150px;
 }
 .new {
   background-image: none;
@@ -178,7 +181,7 @@ padding: 0px;
   font-weight: bold;
   color: rgb(79, 76, 76);
 }
-.who{
+.who {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/012/original/background_about_us.jpg?1706635953");
   margin-top: 30px;
   border-radius: 10px;
@@ -188,12 +191,12 @@ padding: 0px;
   background-size: 1400px 950px;
   padding-bottom: 30px;
   text-align: center;
-  }
-  .list {
+}
+.list {
   text-align: center;
   margin: 40px 0px 40px;
-  }
-  .whole-list{
+}
+.whole-list {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/012/original/background_about_us.jpg?1706635953");
   border-radius: 10px;
   border: 2px solid rgba(255, 196, 163);
@@ -202,244 +205,299 @@ padding: 0px;
   background-size: 1400px 950px;
   padding-bottom: 30px;
   text-align: center;
-  }
-  .web-designer {
-   color: rgba(253, 126, 185);
-  }
-  .marketer{
-   color: rgba(253, 126, 185);
-  }
-  .md{
-   line-height: 1.5;
-  }
-.skills{
+}
+.web-designer {
+  color: rgba(253, 126, 185);
+}
+.marketer {
+  color: rgba(253, 126, 185);
+}
+.md {
+  line-height: 1.5;
+}
+.skills {
   text-align: center;
   margin: 80px 0px 40px;
   line-height: 2;
 }
-.work{
+.work {
   text-align: center;
 }
-.slider{
+.slider {
   position: relative;
-  left:300px;
+  left: 300px;
   margin-top: 90px;
 }
-.contact-page-body{
-  padding:0px;
+.contact-page-body {
+  padding: 0px;
   margin-bottom: 60px;
 }
-.contact-images{
-display: block;
-margin:0 auto;
+.contact-images {
+  display: block;
+  margin: 0 auto;
+  border: 8px solid white;
+  border-radius: 100%;
+  padding: 5px;
+  width: 100px;
 }
-.contact-details{
-text-align: center;
+.contact-details {
+  text-align: center;
 }
-.contact-page-image{
- padding: 0px;
- display: block;
- margin: 0 auto;
- max-height: 200px;
- border-radius: 30px;
- border:2px solid #f6d1d1;
- margin-top: 90px;
- margin-bottom: 90px;
+.contact-page-image {
+  padding: 0px;
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  border-radius: 30px;
+  border: 2px solid #f6d1d1;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
-.contact{
+.contact {
   border-radius: 10px;
   border: 2px solid rgba(255, 196, 163);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
+  max-width: 600px;
   display: block;
   margin: 0 auto;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/012/original/background_about_us.jpg?1706635953");
   background-repeat: no-repeat;
-  background-size: 3000px;
+  background-size: 4000px;
   padding: 25px;
 }
-.contact:hover{
+.contact:hover {
   cursor: pointer;
   transform: scale(1.05);
   background-image: none;
   background-color: rgba(198, 195, 208, 0.3);
-  border-color:   rgba(198, 195, 208, 0.3);
+  border-color: rgba(198, 195, 208, 0.3);
 }
-.get-in-touch{
+.get-in-touch {
   text-align: center;
   margin-bottom: 40px;
-  font-size: 35px;
+  font-size: 50px;
+}
+.contact-name {
+  color: #534859;
+  text-shadow: none;
 }
 .contact-box {
-    background-color: #f6d1d1;
-    padding: 20px 40px;
-    border-radius: 40px;
-    margin: 45px 15px 30px 40px;
+  background-color: #f6d1d1;
+  padding: 20px 40px;
+  border-radius: 40px;
+  margin: 20px 15px 30px 20px;
 }
-.nav-name{
+.nav-name {
   font-size: 30px;
   text-decoration: none;
   color: rgba(253, 126, 185);
 }
-ul{
-padding: 0px;
-margin:0px;
+ul {
+  padding: 0px;
+  margin: 0px;
 }
-nav li{
+nav li {
   display: inline;
   margin-left: 15px;
   line-height: 30px;
 }
-nav{
+nav {
   padding: 20px 20px;
-  background-color: #f6d1d1;
+  background-color: white;
   display: inline;
 }
- nav a{
+nav a {
   text-decoration: none;
   color: rgba(253, 126, 185);
   font-weight: bolder;
   transition: all 100ms ease-in-out;
- }
- nav a:hover{
- color: rgb(79, 76, 76);
- text-decoration: underline;
- cursor: pointer;
- }
- nav li:active a{
-  color: beige;
- }
- .weather-app {
+}
+nav a:hover {
+  color: rgb(79, 76, 76);
+  text-decoration: underline;
+  cursor: pointer;
+}
+nav li:active a {
+  color: #f6d1d1;
+}
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgba(253, 126, 185);
+  font-weight: bolder;
+  transition: all 100ms ease-in-out;
+}
+.link:hover {
+  color: rgb(79, 76, 76);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.link:active {
+  color: #f6d1d1;
+}
+.project-description {
+  position: relative;
+  top: 155px;
+  font-size: 22px;
+}
+.projects-header {
+  font-size: 45px;
+  text-align: center;
+  margin: 60px 0 60px;
+}
+.project-heading {
+  font-size: 55px;
+}
+.weather-app {
   max-width: 300px;
-  max-height: 400px;
+  max-height: 600px;
   display: block;
   margin-left: 250px;
-  border: 2px solid var(--color);
-  border-radius: 10px;
-  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
- }
- .contentspark{
+}
+.background {
+  background-color: #f6d1d1;
+  width: 1800px;
+  margin-bottom: 85px;
+  height: 750px;
+  padding: 0px;
+  margin: 0px;
+}
+.contentspark {
   max-width: 300px;
-  max-height: 400px;
+  max-height: 600px;
   display: block;
   margin: 60px 0px 50px 90px;
-  border: 2px solid var(--color);
-  border-radius: 10px;
-  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
- }
- .built-with{
+}
+.built-with {
   color: rgba(253, 126, 185);
   font-weight: bold;
- }
- .website{
+}
+.website {
   max-width: 300px;
-  max-height: 400px;
+  max-height: 600px;
   display: block;
   margin: 60px 0px 50px 90px;
-  border: 2px solid var(--color);
-  border-radius: 10px;
-  box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
- }
- .hero{
+}
+.hero {
   max-width: 2200px;
   margin-bottom: 85px;
   height: 600px;
-  }
-  .marketing {
+}
+.marketing {
   color: white;
-  }
-  .web{
-  color: white; 
-  }
-  .shecodes{
-    margin: 55px 0 25px;
-    text-align: center;
-  }
-  .shecodes-row{
-   margin-left: 195px;
-  }
+}
+.web {
+  color: white;
+}
+.shecodes-skills {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 85px;
+  padding: 15px 15px 15px 15px;
+  background-color: #f6d1d1;
+}
+.shecodes {
+  margin: 85px 0 85px;
+  text-align: center;
+}
+.shecodes-row {
+  margin-left: 195px;
+}
+.Certificates-row {
+  margin: 0;
+  width: 1600px;
+}
+.intro-to-coding {
+  padding: 15px 15px 15px 15px;
+  background-color: #f6d1d1;
+}
+.web-development {
+  padding: 15px 15px 15px 15px;
+  background-color: #f6d1d1;
+}
 :root {
   --background-color: rgba(253, 126, 185);
   --color: rgba(255, 196, 163, 0.8);
 }
-@media (max-width: 960px){
+@media (max-width: 960px) {
   .project-description {
-   text-align: center;
-   font-size: 12px;
+    text-align: center;
+    font-size: 12px;
   }
-  h1{
+  h1 {
     font-size: 27.2px;
   }
   p {
-   font-size: 17px;
+    font-size: 17px;
   }
   .image {
-   position: relative;
+    position: relative;
   }
   .new {
-   position: relative;
-   left: 35px;
-   padding-bottom: 20px;
+    position: relative;
+    left: 35px;
+    padding-bottom: 20px;
   }
   .ms {
-  position: relative;
-  bottom: 555px;
-  right:125px;
+    position: relative;
+    bottom: 555px;
+    right: 125px;
   }
-  .hero{
+  .hero {
     margin-bottom: 15px;
   }
-  body{
-   padding: 50px 0px;
-   background-repeat: no-repeat;
+  body {
+    background-repeat: no-repeat;
   }
-  .col .picture{
-   padding: 0px;
+  .col .picture {
+    padding: 0px;
   }
-  .picture{
-   margin: 35px 0px;
-   text-align: center;
+  .picture {
+    margin: 35px 0px;
+    text-align: center;
   }
-  .cards{
-   padding: 37px;
+  .cards {
+    padding: 37px;
   }
-  .change{
-   background-repeat: no-repeat;
+  .change {
+    background-repeat: no-repeat;
   }
-  .skills{
-   text-align: center;
+  .skills {
+    text-align: center;
   }
-  .myskills{
-   margin:50px 20px 50px;
-   margin-left: 35px;
+  .myskills {
+    margin: 50px 20px 50px;
+    margin-left: 35px;
   }
-  .first-list{
-   display: list-item;
-   list-style: none;
-   position: relative;
-   left: -10px;
-   line-height: 25px;
+  .first-list {
+    display: list-item;
+    list-style: none;
+    position: relative;
+    left: -10px;
+    line-height: 25px;
   }
-   .second-list{
-   display: list-item;
-   list-style: none;
-   position: relative;
-   left: -15px;
-   line-height: 25px;
-
+  .second-list {
+    display: list-item;
+    list-style: none;
+    position: relative;
+    left: -15px;
+    line-height: 25px;
   }
-  .contact-page-image{
-    width:300px;
+  .contact-page-image {
+    width: 300px;
   }
-.nav-name{
-font-size: 17px;
-position: relative;
-top:3px;
+  .contact {
+    max-width: 400px;
+  }
+  .nav-name {
+    font-size: 15px;
+    position: relative;
+    top: 8px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 40px;
+  }
 }
-h2{
-  font-size: 30px;
-}
-h1{
-  font-size: 40px;
-}
-)
