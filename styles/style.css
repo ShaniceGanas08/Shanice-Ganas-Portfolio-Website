@@ -148,7 +148,10 @@ li {
   height: auto;
   box-shadow: 4px 4px 10px 0px rgba(255, 196, 163, 0.8);
   border-radius: 25px;
-  margin: 80px 0px 70px 210px;
+  margin: 80px 0px 70px 0px;
+  position: relative;
+  top: 30px;
+  left: 150px;
 }
 .heading {
   text-align: center;
@@ -259,6 +262,7 @@ li {
   max-width: 600px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 85px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/012/original/background_about_us.jpg?1706635953");
   background-repeat: no-repeat;
   background-size: 4000px;
@@ -358,10 +362,10 @@ nav li:active a {
 }
 .background {
   background-color: #f6d1d1;
-  width: 1263px;
-  margin-bottom: 0 15px 85px 15px;
+  width: 1220px;
+  margin: 0px 15px 85px 10px;
   height: 750px;
-  padding: 30px;
+  padding: 50px;
 }
 .contentspark {
   max-width: 300px;
@@ -395,11 +399,12 @@ nav li:active a {
   display: block;
   margin: 0 auto;
   margin-bottom: 85px;
+  margin-top: 45px;
   padding: 15px 15px 15px 15px;
   background-color: #f6d1d1;
 }
 .shecodes {
-  margin: 85px 0 85px;
+  margin: 85px 0 45px;
   text-align: center;
 }
 .shecodes-row {
@@ -407,6 +412,7 @@ nav li:active a {
 }
 .Certificates-row {
   display: flex;
+  justify-content: space-evenly;
 }
 .Certificates-row img {
   margin: 20px;
@@ -418,6 +424,42 @@ nav li:active a {
 .web-development {
   padding: 15px 15px 15px 15px;
   background-color: #f6d1d1;
+}
+.footer {
+  padding: 20px 0px 20px 20px;
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  width: 1800px;
+}
+.social-links {
+  color: rgba(253, 126, 185);
+  position: relative;
+  top: 30px;
+  margin-bottom: 35px;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-evenly;
+  text-decoration: none;
+  text-align: center;
+}
+.coded-by {
+  font-size: 29px;
+  position: relative;
+  top: 40px;
+  margin-bottom: 55px;
+  text-shadow: none;
+}
+.open-soureced {
+  color: rgba(253, 126, 185);
+  font-weight: 100%;
+  text-shadow: none;
+}
+.copyright {
+  font-size: 12px;
+  color: #534859;
 }
 :root {
   --background-color: rgba(253, 126, 185);
