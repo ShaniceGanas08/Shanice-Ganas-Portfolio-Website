@@ -348,6 +348,9 @@ nav li:active a {
 .project-heading {
   font-size: 55px;
 }
+.project-paragraph {
+  font-size: 22px;
+}
 .weather-app {
   max-width: 300px;
   max-height: 600px;
