@@ -484,7 +484,7 @@ nav li:active a {
   }
   .ms {
     position: relative;
-    bottom: 405px;
+    bottom: 485px;
     right: 125px;
     font-size: 35px;
   }
@@ -509,7 +509,7 @@ nav li:active a {
   .card-row {
     display: flex;
     justify-content: space-evenly;
-    margin-right: 35px;
+    margin-right: 75px;
   }
   .change {
     background-repeat: no-repeat;
@@ -550,12 +550,14 @@ nav li:active a {
   h1 {
     font-size: 40px;
   }
-
   .shanice-mobile {
     width: 600px;
     height: 500px;
   }
   .bold {
     display: none;
+  }
+  .heading {
+    text-align: center;
   }
 }
