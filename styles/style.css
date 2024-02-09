@@ -364,13 +364,7 @@ nav li:active a {
   left: 165px;
   top: 30px;
 }
-.background {
-  background-color: #f6d1d1;
-  width: 1220px;
-  margin: 0px 15px 85px 10px;
-  height: 635px;
-  padding: 25px 50px 25px 50px;
-}
+
 .contentspark {
   max-width: 350px;
   max-height: 500px;
@@ -490,7 +484,7 @@ nav li:active a {
   }
   .ms {
     position: relative;
-    bottom: 555px;
+    bottom: 805px;
     right: 125px;
   }
   .hero {
@@ -508,6 +502,13 @@ nav li:active a {
   }
   .cards {
     padding: 37px;
+    position: relative;
+    top: 150px;
+  }
+  .card-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 75px;
   }
   .change {
     background-repeat: no-repeat;
@@ -540,9 +541,7 @@ nav li:active a {
     max-width: 400px;
   }
   .nav-name {
-    font-size: 15px;
-    position: relative;
-    top: 8px;
+    display: none;
   }
   h2 {
     font-size: 30px;
@@ -550,12 +549,8 @@ nav li:active a {
   h1 {
     font-size: 40px;
   }
-  .background {
-    background: linear-gradient(
-      109.6deg,
-      rgb(255, 221, 225) 11.2%,
-      rgb(255, 255, 255) 92.2%
-    );
-    max-width: 600px;
+
+  .project-description {
+    padding: 0px;
   }
 }
