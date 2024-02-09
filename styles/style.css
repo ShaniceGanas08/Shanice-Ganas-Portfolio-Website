@@ -364,6 +364,9 @@ nav li:active a {
   left: 165px;
   top: 30px;
 }
+.background {
+  margin: 60px 0px 50px 90px;
+}
 
 .contentspark {
   max-width: 350px;
@@ -459,6 +462,7 @@ nav li:active a {
   font-size: 12px;
   color: #534859;
 }
+
 :root {
   --background-color: rgba(253, 126, 185);
   --color: rgba(255, 196, 163, 0.8);
