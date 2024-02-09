@@ -433,6 +433,8 @@ nav li:active a {
   text-align: center;
   font-size: 30px;
   text-decoration: none;
+  position: relative;
+  top: 125px;
 }
 .social-links a {
   color: rgba(253, 126, 185);
