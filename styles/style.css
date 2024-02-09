@@ -509,7 +509,7 @@ nav li:active a {
   .card-row {
     display: flex;
     justify-content: space-evenly;
-    margin-right: 75px;
+    padding-right: 15px;
   }
   .change {
     background-repeat: no-repeat;
@@ -558,6 +558,7 @@ nav li:active a {
     display: none;
   }
   .heading {
-    text-align: center;
+    position: relative;
+    right: 15px;
   }
 }
