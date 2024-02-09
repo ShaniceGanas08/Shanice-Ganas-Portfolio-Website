@@ -508,7 +508,6 @@ nav li:active a {
   .card-row {
     display: flex;
     justify-content: space-evenly;
-    margin: 5px;
   }
   .change {
     background-repeat: no-repeat;
@@ -554,6 +553,6 @@ nav li:active a {
     padding: 0px;
   }
   .projects-header {
-    top: 35px;
+    top: 75px;
   }
 }
