@@ -509,7 +509,7 @@ nav li:active a {
   .card-row {
     display: flex;
     justify-content: space-evenly;
-    margin-right: 15px;
+    margin-right: 35px;
   }
   .change {
     background-repeat: no-repeat;
@@ -554,5 +554,8 @@ nav li:active a {
   .shanice-mobile {
     width: 600px;
     height: 500px;
+  }
+  .bold {
+    display: none;
   }
 }
