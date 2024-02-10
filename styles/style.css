@@ -555,4 +555,7 @@ nav li:active a {
   .project-description {
     margin: 10px 0 20px 0;
   }
+  .btn-branding {
+    font-size: 15px;
+  }
 }
