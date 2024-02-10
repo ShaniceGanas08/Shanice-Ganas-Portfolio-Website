@@ -60,8 +60,6 @@ li {
   right: 35px;
 }
 .ms {
-  position: relative;
-  bottom: 370px;
   padding-left: 130px;
 }
 .contact-me {
@@ -169,8 +167,8 @@ li {
   border: 2px solid rgba(255, 196, 163);
   box-shadow: 1px 1px 1px rgba(255, 196, 163, 0.8);
   background-repeat: no-repeat;
-  background-size: 1600px 950px;
-  padding: 0px 30px 30px 90px;
+  background-size: 1600px 1250px;
+  padding: 30px;
 }
 .new {
   background-image: none;
@@ -342,9 +340,7 @@ nav li:active a {
   color: #f6d1d1;
 }
 .project-description {
-  position: relative;
-  top: 155px;
-  font-size: 22px;
+  margin: 80px 0 40px 0;
 }
 .projects-header {
   font-size: 45px;
@@ -360,12 +356,8 @@ nav li:active a {
 .weather-app {
   max-width: 350px;
   max-height: 500px;
-  position: relative;
-  left: 165px;
-  top: 30px;
-}
-.background {
-  margin: 60px 0px 50px 90px;
+  display: block;
+  margin: 60px 0px 50px 220px;
 }
 
 .contentspark {
@@ -445,8 +437,6 @@ nav li:active a {
 }
 .coded-by {
   font-size: 29px;
-  position: relative;
-  top: 40px;
   margin-bottom: 55px;
   text-shadow: none;
 }
@@ -553,7 +543,7 @@ nav li:active a {
   }
   .shanice-mobile {
     width: 600px;
-    height: 500px;
+    height: 450px;
   }
   .bold {
     display: none;
@@ -561,5 +551,8 @@ nav li:active a {
   .heading {
     position: relative;
     right: 15px;
+  }
+  .project-description {
+    margin: 10px 0 20px 0;
   }
 }
