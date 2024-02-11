@@ -14,10 +14,29 @@ body {
 }
 .heading-one {
   font-size: 45px;
+  position: relative;
+  top: -425px;
 }
 .bold {
   font-weight: bold;
   padding-left: 10px;
+}
+.paragraph {
+  font-weight: bold;
+  padding-left: 10px;
+  position: relative;
+  right: 55px;
+  bottom: 410px;
+}
+.button {
+  position: relative;
+  right: 45px;
+  bottom: 430px;
+}
+.sub-heading {
+  position: relative;
+  right: 45px;
+  top: 100px;
 }
 h1 {
   font-size: 45px;
@@ -449,16 +468,22 @@ nav li:active a {
   font-size: 12px;
   color: #534859;
 }
+.info {
+  position: relative;
+  bottom: 370px;
+  left: 55px;
+}
+.heading-one {
+  position: relative;
+  bottom: 470px;
+  right: 55px;
+}
 
 :root {
   --background-color: rgba(253, 126, 185);
   --color: rgba(255, 196, 163, 0.8);
 }
 @media (max-width: 960px) {
-  .project-description {
-    text-align: center;
-    font-size: 12px;
-  }
   h1 {
     font-size: 27.2px;
   }
@@ -508,10 +533,7 @@ nav li:active a {
   .skills {
     text-align: center;
   }
-  .myskills {
-    margin: 50px 20px 50px;
-    margin-left: 35px;
-  }
+
   .first-list {
     display: list-item;
     list-style: none;
@@ -548,14 +570,38 @@ nav li:active a {
   .bold {
     display: none;
   }
+  .paragraph {
+    display: none;
+  }
   .heading {
     position: relative;
     right: 15px;
   }
   .project-description {
     margin: 10px 0 20px 0;
+    text-align: center;
+    font-size: 12px;
   }
   .btn-branding {
     font-size: 15px;
+  }
+  .skills-image {
+    position: relative;
+    right: 105px;
+    bottom: 50px;
+  }
+  .heading-one {
+    font-size: 28px;
+    position: relative;
+    top: 10px;
+    right: 15px;
+  }
+  .shecodes-skills {
+    margin-bottom: 10px;
+  }
+  .button {
+    position: relative;
+    top: 10px;
+    right: -5px;
   }
 }
