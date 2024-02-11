@@ -600,6 +600,12 @@ nav li:active a {
     margin-bottom: 10px;
     max-width: 400px;
   }
+  .intro-to-coding {
+    max-width: 400px;
+  }
+  .web-development {
+    max-width: 400px;
+  }
   .button {
     position: relative;
     top: 10px;
