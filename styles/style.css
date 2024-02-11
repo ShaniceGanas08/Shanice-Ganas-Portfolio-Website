@@ -598,6 +598,7 @@ nav li:active a {
   }
   .shecodes-skills {
     margin-bottom: 10px;
+    max-width: 400px;
   }
   .button {
     position: relative;
