@@ -586,9 +586,7 @@ nav li:active a {
     font-size: 15px;
   }
   .skills-image {
-    position: relative;
-    left: 25px;
-    bottom: 50px;
+    display: none;
   }
   .heading-one {
     font-size: 28px;
