@@ -587,7 +587,7 @@ nav li:active a {
   }
   .skills-image {
     position: relative;
-    right: 210px;
+    left: 55px;
     bottom: 50px;
   }
   .heading-one {
