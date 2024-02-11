@@ -598,13 +598,13 @@ nav li:active a {
   }
   .shecodes-skills {
     margin-bottom: 10px;
-    max-width: 350px;
+    max-width: 320px;
   }
   .intro-to-coding {
-    max-width: 350px;
+    max-width: 320px;
   }
   .web-development {
-    max-width: 350px;
+    max-width: 320px;
   }
   .button {
     position: relative;
